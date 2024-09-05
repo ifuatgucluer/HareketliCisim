@@ -5,14 +5,14 @@
     public class HareketliCisim extends JPanel {
 
         // Dairenin başlangıç konumu
-        int x = 0;
-        int y = 100;
+        int x = 10;
+        int y = 50;
 
         // Dairenin hareket ettirileceği yön (her güncellemede artacak)
-        int deltaX = 5;
+        int deltaX = 9;
 
         // Dairenin boyutu
-        int daireBoyutu = 50;
+        int daireBoyutu = 30;
 
         // Dairenin hareketi güncelleyen metot
         public void hareketEttir() {
@@ -26,9 +26,9 @@
             // Ekranı tekrar çizer
             repaint();
         }
-g
+
         // Grafik çizim metodu (daireyi çizmek için)
-        @Override
+
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             g.setColor(Color.BLUE);
